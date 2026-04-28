@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Portfolio Website",
+      "description": "Personal portfolio showcasing my work and skills",
+      "status": "in-progress",
+      "priority": "high",
+      "createdAt": "2025-01-15"
+    },
+    {
+      "id": "2",
+      "name": "E-commerce App",
+      "description": "Online store with cart and payment integration",
+      "status": "todo",
+      "priority": "medium",
+      "createdAt": "2025-01-20"
+    },
+    {
+      "id": "3",
+      "name": "Admin Dashboard",
+      "description": "Internal dashboard for managing business operations",
+      "status": "completed",
+      "priority": "low",
+      "createdAt": "2025-01-10"
+    },
+    {
+      "name": "Baller",
+      "description": "We play ball",
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2026-04-27",
+      "id": "6mBvUqp9Vao"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": 1,
+      "title": "Design homepage layout",
+      "status": "completed",
+      "priority": "high"
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Build responsive navbar",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": "3",
+      "projectId": 1,
+      "title": "Add Three.js background",
+      "status": "todo",
+      "priority": "medium"
+    },
+    {
+      "id": "4",
+      "projectId": 2,
+      "title": "Set up Vue Router",
+      "status": "completed",
+      "priority": "high"
+    },
+    {
+      "id": "5",
+      "projectId": 2,
+      "title": "Build product listing page",
+      "status": "todo",
+      "priority": "medium"
+    },
+    {
+      "id": "6",
+      "projectId": 3,
+      "title": "Create login page",
+      "status": "completed",
+      "priority": "high"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
